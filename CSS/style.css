@@ -177,3 +177,58 @@ body {
 .records td:nth-child(4) {
     text-align: center;
 }
+
+/*Responsividade para telas menores do que 991px*/
+
+@media(max-width:991px) {
+    /*Regras*/
+    .regras {
+        flex-direction: column;
+    }
+
+    .regras imgBox {
+        height: 100%;
+    }
+
+    /*Tabuleiro*/
+    .tabuleiro {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .pontos th {
+        font-size: 30px;
+    }
+
+    .pontos td:first-child {
+        font-size: 20px;
+    }
+
+    .gramado {
+        height: 400px;
+        width: 400px;
+    }
+
+    .pontos {
+        height: 400px;
+        width: 400px;
+    }
+
+    .gramado img{
+        padding: 10px 30px;
+    }
+
+    /*Recordes*/
+    .records tr th td {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .records th {
+        font-size: 18px;
+    }
+
+    .records td {
+        font-size: 15px;
+    }
+}
