@@ -114,20 +114,20 @@ body {
 .pontos {
     width: 536px;
     height: 536px;
+    font-family: 'Bungee Spice', sans-serif;
     display: flex;
     justify-content: center;
+    background-color: #00DD00;
 }
 
 .pontos th {
     font-size: 50px;
-    font-family: 'Bungee Spice', sans-serif;
     text-align: center;
 }
 
 .pontos td:first-child {
-    text-align: right;
     font-size: 36px;
-    font-family: 'Bungee Spice', sans-serif;
+    text-align: center;
 }
 
 
@@ -164,6 +164,10 @@ body {
     font-size: 30px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.records tr:nth-child(even) {
+    background-color: #C0C0C0;
 }
 
 .records td:first-child, td:nth-child(3) {
