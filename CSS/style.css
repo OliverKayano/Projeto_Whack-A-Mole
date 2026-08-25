@@ -186,7 +186,7 @@ body {
         flex-direction: column;
     }
 
-    .regras imgBox {
+    .regras .imgBox {
         height: 100%;
     }
 
