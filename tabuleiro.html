@@ -31,15 +31,15 @@
                 </a>
             </div>
         </header>
-        <section class="tabuleiro">
-            <div class="gramado">
+        <section class="tabuleiro" id="tabuleiro">
+            <div class="gramado" id="idgramado">
                 <img src="images/hole.png" alt="buraco vazio" class="hole" id="buraco0">
                 <img src="images/hole.png" alt="buraco vazio" class="hole" id="buraco1">
                 <img src="images/hole.png" alt="buraco vazio" class="hole" id="buraco2">
                 <img src="images/hole.png" alt="buraco vazio" class="hole" id="buraco3">
                 <img src="images/hole.png" alt="buraco vazio" class="hole" id="buraco4">
             </div>
-            <div class="pontos"></div>
+            <div class="pontos">
                 <table>
                     <thead>
                         <tr><th colspan="2">Pontuação</th></tr>
@@ -47,34 +47,36 @@
                     <tbody>
                         <tr>
                             <td>Acertos:</td>
-                            <td class="pontuação" id="acertos">
+                            <td class="pontuacao" id="acertos">
                                 <img src="images/caractere_0.gif" alt="0"><img src="images/caractere_0.gif" 
                                 alt="0"><img src="images/caractere_0.gif" alt="0">
                             </td>
                         </tr>
                         <tr>
                             <td>Perdidos:</td>
-                            <td class="pontuação" id="perdidos">
+                            <td class="pontuacao" id="perdidos">
                                 <img src="images/caractere_0.gif" alt="0"><img src="images/caractere_0.gif" 
                                 alt="0"><img src="images/caractere_0.gif" alt="0">
                             </td>
                         </tr>
                         <tr>
                             <td>Errados:</td>
-                            <td class="pontuação" id="errados">
+                            <td class="pontuacao" id="errados">
                                 <img src="images/caractere_0.gif" alt="0"><img src="images/caractere_0.gif" 
                                 alt="0"><img src="images/caractere_0.gif" alt="0">
                             </td>
                         </tr>
                         <tr>
                             <td>Saldo:</td>
-                            <td class="pontuação" id="saldo">
+                            <td class="pontuacao" id="saldo">
                                 <img src="images/caractere_0.gif" alt="0"><img src="images/caractere_0.gif" 
                                 alt="0"><img src="images/caractere_0.gif" alt="0">
                             </td>
                         </tr>
-                        <tr colspan="2">
-                            <button id="start" class="btn btn-light">Start</button>
+                        <tr>
+                            <td colspan="2">
+                                <button id="start" class="btn btn-light">Start</button>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
